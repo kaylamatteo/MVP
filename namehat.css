@@ -1,1 +1,116 @@
+body{
+background-color: #b3ffff;
+}
 
+h1 {
+color: white;
+font-size: 120px;
+font-family: 'Brush Script MT', cursive;
+text-align: center;
+background-color: #ff3333;
+margin: 10px;
+}
+
+h2 {
+color: #663300;
+text-align: center;
+margin-top:10px;
+font-size: 40px;
+font-family: georgia;
+margin: 5px;
+}
+
+h3 {
+color: black;
+}
+
+.directions {
+color: black;
+text-align: center;
+font-size: 20px;
+font-family: georgia;
+margin: 5px;
+font-weight: bold;
+}
+
+#addName {
+color: #ff3333;
+margin-right: auto;
+margin-left: auto;
+font-size:18pt;
+height:25px;
+width:175px;
+margin-top: 10px;
+}
+
+button {
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Georgia;
+  color: white;
+  font-size: 14px;
+  background: #ff3333;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #b3ffff;
+  text-decoration: none;
+}
+
+#list {
+margin-right: auto;
+margin-left: auto;
+color: black;
+}
+
+#results {
+margin-right: auto;
+margin-left: auto;
+color: black;
+}
+
+.resultText {
+font-family: georgia;
+font-size: 30px;
+}
+
+.guestText {
+font-family: georgia;
+font-size: 30px;
+}
+
+.guestList { 
+text-align:center;
+background-color: white; 
+text-align: center;
+}
+
+.guestList ul { 
+display: inline-table;
+}
+
+.guestList ul li {
+font-family: georgia;
+font-size: 25px;
+}
+
+.resultList { 
+text-align:center; 
+background-color: white;
+text-align: center;
+}
+
+.resultList ul { 
+display: inline-table;
+}
+
+.resultList ul li {
+font-family: georgia;
+font-size: 25px;
+}
+
+#lists {
+left:100%;
+}
