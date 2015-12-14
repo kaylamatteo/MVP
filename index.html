@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name Hat</title>
+  <script src="namehat.js" type="text/javascript"></script>
+</head>
+<body>
+<div class = 'container'>
+	<h1>Name Hat</h1>
+	<div id='directions'>Enter an even number of names to get randomly selected pairings for your holiday event!</div>
+	<br>
+  	<input type='text' maxlength='30' id='addName' placeholder='Enter a name...'>
+  	<button id='submitButton' onclick="addName()">Add name</button>
+  	<button id='shuffle' onclick='pair(nameArr)'>Randomize</button>
+	<h3> Guest List: </h3>
+    <ul id='list'>
+        <li>
+            <label></label>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
